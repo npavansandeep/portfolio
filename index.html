@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pavan Sandeep Natha - Developer</title>
     <link rel="icon" href="./images/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
@@ -10,49 +10,65 @@
   <body>
     <header>
       <nav class="nav-bar">
-        <a href="/"><h1>NPS.dev</h1></a>
+        <a href="/"><h3>NPS.dev</h3></a>
 
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contributions">Contributions</a>
-        <a href="#contact">Contact</a>
+        <div id="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contributions">Contributions</a>
+          <a href="#contact">Contact</a>
+        </div>
       </nav>
 
-      <img src="./images/nps.jpeg" alt="NPS_PHOTO" width="300" height="300" />
-      <p>Hi, I'm</p>
-      <h1>Pavan Sandeep Natha</h1>
-      <p>
-        "Full-stack developer. Currently exploring Web3 and AI. Always on the
-        lookout for the next cool repo to contribute to. I build, break, and
-        build again!"
-      </p>
-
-      <a href="https://www.linkedin.com/in/pavan-sandeep-natha-246223211/"
-        >Linkedin</a
-      >
-      <a href="https://github.com/npavansandeep">Github</a>
-      <a href="https://x.com/npstwts">Twitter</a>
-      <button>Download CV</button>
+      <div class="introduction">
+        <img src="./images/nps.jpeg" alt="NPS_PHOTO" />
+        <div class="introduction-text">
+          <p>Hi, I'm</p>
+          <h1>Natha Pavan Sandeep</h1>
+          <p>
+            Full-stack developer. Currently exploring Web3 and AI. Always on the
+            lookout for the next cool repo to contribute to. I build, break, and
+            build again!
+          </p>
+          <div class="introduction-links">
+            <a href="https://www.linkedin.com/in/pavan-sandeep-natha-246223211/"
+              >Linkedin</a
+            >
+            <a href="https://github.com/npavansandeep">Github</a>
+            <a href="https://x.com/npstwts">Twitter</a>
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
     </header>
 
     <div class="tech-stack">
       <h3>Tech Stack</h3>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JS</li>
-      <li>TS</li>
-      <li>React.js</li>
-      <li>Next.js</li>
-      <li>Tailwind CSS</li>
-      <li>AWS</li>
-      <li>Vercel</li>
+      <div>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Tailwind CSS</li>
+      </div>
+      <div>
+        <li>JS</li>
+        <li>TS</li>
+      </div>
+      <div>
+        <li>React.js</li>
+        <li>Next.js</li>
+      </div>
+      <div>
+        <li>AWS</li>
+        <li>Vercel</li>
+      </div>
     </div>
 
-    <div>
+    <div class="projects">
       <h3>Projects</h3>
+      Coming soon...
     </div>
 
-    <div>
+    <div class="contact-me">
       <h3>Contact Me!</h3>
       <form action="/">
         <input type="text" placeholder="Name" />
@@ -62,16 +78,18 @@
       </form>
     </div>
 
-    <footer>
+    <footer class="footer">
       <p>Copyright © 2025. All rights are reserved</p>
-      <a href="https://www.facebook.com/pavan.sandeep.372">Facebook</a>
-      <a href="https://www.instagram.com/nps.xoxo/">Instagram</a>
-      <a href="https://www.linkedin.com/in/pavan-sandeep-natha-246223211/"
-        >Linkedin</a
-      >
-      <a href="https://github.com/npavansandeep">Github</a>
-      <a href="https://x.com/npstwts">Twitter</a>
-      <a href="mailto:pavannps03@gmail.com">Gmail</a>
+      <div id="social-links">
+        <a href="https://www.facebook.com/pavan.sandeep.372">Facebook</a>
+        <a href="https://www.instagram.com/nps.xoxo/">Instagram</a>
+        <a href="https://www.linkedin.com/in/pavan-sandeep-natha-246223211/"
+          >Linkedin</a
+        >
+        <a href="https://github.com/npavansandeep">Github</a>
+        <a href="https://x.com/npstwts">Twitter</a>
+        <a href="mailto:pavannps03@gmail.com">Gmail</a>
+      </div>
     </footer>
   </body>
 </html>
