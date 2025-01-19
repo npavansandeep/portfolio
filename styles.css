@@ -185,25 +185,81 @@ svg {
   margin: auto 0;
 }
 
-@media screen and (max-width: 56rem) {
-  :root {
-    font-size: 10px;
+@media screen and (max-width: 36rem) {
+  img {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 12rem;
   }
 
+  .contact-me input {
+    display: block;
+    margin: 0.25rem auto;
+    padding: 0.125rem;
+  }
+
+  .contact-me textarea {
+    width: 10.25rem;
+    font-size: 0.8em;
+  }
+
+  .contact-me #submit {
+    width: 11.375rem;
+    font-size: 0.725em;
+    margin: 0.25rem auto;
+    padding: 0.125rem;
+  }
+
+  .contact-me #email {
+    border-radius: 0 0 0 0;
+    font-size: 0.8em;
+  }
+
+  .contact-me #name {
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-size: 0.8em;
+  }
+
+  .footer-links {
+    text-align: justify;
+    flex-wrap: wrap;
+  }
+
+  .nav-bar h3 {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 56rem) {
   body {
     width: 100%;
   }
 
-  img {
-    width: 75%;
-    height: 75%;
-    border-radius: 75%;
+  .contact-me textarea {
+    font-size: 0.8em;
+  }
+
+  .contact-me #submit {
+    font-size: 0.725em;
+  }
+
+  .contact-me #email {
+    font-size: 0.8em;
+  }
+
+  .contact-me #name {
+    font-size: 0.8em;
   }
 
   .footer {
     margin: 1rem auto 1rem;
     align-items: center;
     flex-direction: column;
+    font-size: 0.75rem;
   }
 
   .footer-links {
@@ -215,12 +271,16 @@ svg {
     align-items: center;
   }
 
+  .introduction-text h1 {
+    font-size: 2.5rem;
+  }
+
   #logo {
     margin-left: 1.5rem;
   }
 
   .nav-bar {
-    padding-right: 0.25rem;
+    padding-right: 0.75rem;
   }
 
   .projects {
@@ -237,5 +297,10 @@ svg {
     border-right: none;
     border-bottom: 1px solid black;
     padding: 0 0 0.5rem;
+  }
+
+  .tech-stack-icons {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
